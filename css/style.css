@@ -1,0 +1,112 @@
+style.css
+    html, body {
+        color: #FFFFFF;
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #000000;
+        margin: 20px 20px 0px 20px;
+        text-align: center;
+        }
+
+        h1 {
+        text-align: center;
+        font-size: 42px;
+        color: #FFFFFF;
+        padding: 15px;
+        background-color: #000000;
+        }
+
+        h2 {
+        font-size: 30px;
+        color: #0d0d0d;
+        }
+
+        p {
+        font-size: 24px;
+        padding: 10px 0 0 10px;
+        }
+
+        img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        border: 10px dashed #FFFFFF;
+        background-color: #000000;
+        }
+
+        div {
+            min-height:125px;
+            padding: 20px;
+            border: 3px solid #FFFFFF;
+        }
+
+        .introduction {
+            border-radius: 15px;
+            margin-top: 15px;
+            line-height: 2;
+            color: #FFFFFF;
+            background-color: #000000;
+            text-align: left;
+        }
+
+        .red {
+            background-color: #FF0000; /* Red background */
+            text-align: right; /* Right-align text */
+            margin-left: 50px;
+            border-left: 5px solid #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+            border-right: none;
+        }
+
+        .red p, .green p {
+            color: #FFFFFF; /* White text for contrast */
+        }
+
+        .blue {
+            background-color: #0000FF; /* Blue background */
+            text-align: left;
+            margin-right: 50px;
+            border-right: 5px solid #FFFFFF;
+            border-top: 2px solid #FFFFFF;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .blue h2, .blue p {
+            color: #C4C4C4; /* Light gray text for contrast */
+        }
+
+        .yellow {
+            background-color: #FFFF00; /* Yellow background */
+            text-align: right;
+            margin-left: 50px;
+            border-left: 5px solid #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+            border-right: none;
+            border-top: none;
+        }
+
+        .yellow p {
+            color: #707070;
+        }
+
+        .green {
+            background-color: #00d800;
+            text-align: left;
+            margin-right: 50px;
+            border-right: 5px solid #FFFFFF;
+            border-top: 2px solid #FFFFFF;
+            border-left: none;
+            border-bottom: none;
+        }
+        footer {
+            background: linear-gradient(10deg, #0000ff 25%, #06f 70%, #000000);
+            border: 5px solid #FFFFFF;
+            text-align: right;
+            padding: 15px 15px 15px 0;
+
+        }
+        footer p {
+            font-size: 20px;
+            color: #FFFFFF;
+            padding: 15px 15px 15px 0;
+        }
