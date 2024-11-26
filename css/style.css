@@ -101,7 +101,7 @@ style.css
         }
 
         footer {
-            background: linear-gradient(10deg, #0000ff 25%, #06f 70%, #000000);
+            background: linear-gradient(90deg, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
             border: 5px solid #FFFFFF;
             text-align: right;
             padding: 15px 15px 15px 0;
