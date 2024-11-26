@@ -1,7 +1,7 @@
 style.css
     html, body {
         color: #FFFFFF;
-        font-family: Arial, Verdana, sans-serif;
+        font-family: Arial, "Verdana", sans-serif;
         background-color: #000000;
         margin: 20px 20px 0px 20px;
         text-align: center;
@@ -55,6 +55,7 @@ style.css
             border-left: 5px solid #FFFFFF;
             border-bottom: 2px solid #FFFFFF;
             border-right: none;
+            border-top: none;
         }
 
         .red p, .green p {
@@ -90,7 +91,7 @@ style.css
         }
 
         .green {
-            background-color: #00d800;
+            background-color: #00eb00;
             text-align: left;
             margin-right: 50px;
             border-right: 5px solid #FFFFFF;
@@ -98,6 +99,7 @@ style.css
             border-left: none;
             border-bottom: none;
         }
+
         footer {
             background: linear-gradient(10deg, #0000ff 25%, #06f 70%, #000000);
             border: 5px solid #FFFFFF;
